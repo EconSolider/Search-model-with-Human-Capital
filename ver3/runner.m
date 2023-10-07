@@ -26,7 +26,7 @@ Y=n*y;
 K=n*k;
 I=delta*K;
 
-% solve for z,lambda,kappa,phi
+% solve for z,lambda,phi
 x0=[0.05,0.5,0.05];
 fun=@(x) main_fun_a(x,eta,theta,bet,p,y,alph,E,s,chi,Y,I,n,v,delta_e,H,kappa);
 x=fsolve(fun,x0,options);
