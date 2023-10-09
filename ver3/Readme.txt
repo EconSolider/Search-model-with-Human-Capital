@@ -10,6 +10,8 @@ b_analysisA_stoc: dyanre file to perform stochastic simulation of exogenous shoc
 c_analysisB_deter: dynare file to perform determinstic simulation
 (model's reaction to permanant change in search and learning time, and search time)
 
+d_comparative_statistics: file to analyze the relation between searching time and steady state of variables.
+
 Functions:
 main_fun_a: function to calibrate z, phi, lambda
 main_fun_b: function to solve value W and U of workers
